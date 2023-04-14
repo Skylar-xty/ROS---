@@ -131,7 +131,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gtest/lib",
+				"fragment" : "-Wl,-rpath,/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gtest/lib",
 				"role" : "libraries"
 			},
 			{

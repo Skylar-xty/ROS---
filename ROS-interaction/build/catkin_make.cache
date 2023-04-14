@@ -1,2 +1,2 @@
-class1_ros_qt_demo
--DCATKIN_DEVEL_PREFIX=/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel -DCMAKE_INSTALL_PREFIX=/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/install -G Unix Makefiles
+class1_ros_qt_demo:robot_hmi
+-DCATKIN_DEVEL_PREFIX=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel -DCMAKE_INSTALL_PREFIX=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install -G Unix Makefiles

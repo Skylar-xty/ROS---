@@ -1,4 +1,4 @@
-prefix=/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel
+prefix=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel
 
 Name: class1_ros_qt_demo
 Description: Description of class1_ros_qt_demo

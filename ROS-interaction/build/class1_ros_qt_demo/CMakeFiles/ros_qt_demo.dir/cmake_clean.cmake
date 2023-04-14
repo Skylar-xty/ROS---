@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel/lib/class1_ros_qt_demo/ros_qt_demo"
-  "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel/lib/class1_ros_qt_demo/ros_qt_demo.pdb"
+  "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/class1_ros_qt_demo/ros_qt_demo"
+  "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/class1_ros_qt_demo/ros_qt_demo.pdb"
   "CMakeFiles/ros_qt_demo.dir/include/class1_ros_qt_demo/moc_main_window.cpp.o"
   "CMakeFiles/ros_qt_demo.dir/include/class1_ros_qt_demo/moc_qnode.cpp.o"
   "CMakeFiles/ros_qt_demo.dir/qrc_images.cpp.o"

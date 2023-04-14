@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel/lib/class1_ros_qt_demo/ros_qt_demo"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi"
 		}
 	],
 	"backtrace" : 1,
@@ -22,7 +22,7 @@
 		],
 		"files" : 
 		[
-			"class1_ros_qt_demo/CMakeLists.txt",
+			"robot_hmi/CMakeLists.txt",
 			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
 			"/opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake",
 			"/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake",
@@ -197,16 +197,16 @@
 				},
 				{
 					"backtrace" : 21,
-					"define" : "ROS_PACKAGE_NAME=\"class1_ros_qt_demo\""
+					"define" : "ROS_PACKAGE_NAME=\"robot_hmi\""
 				}
 			],
 			"includes" : 
 			[
 				{
-					"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo"
+					"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi"
 				},
 				{
-					"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src/class1_ros_qt_demo"
+					"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi"
 				},
 				{
 					"backtrace" : 22,
@@ -254,19 +254,19 @@
 			]
 		}
 	],
-	"id" : "ros_qt_demo::@6d31821ad33f72fec595",
+	"id" : "robot_hmi::@e9ffbea2963ac55ce469",
 	"install" : 
 	{
 		"destinations" : 
 		[
 			{
 				"backtrace" : 3,
-				"path" : "lib/class1_ros_qt_demo"
+				"path" : "lib/robot_hmi"
 			}
 		],
 		"prefix" : 
 		{
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/install"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install"
 		}
 	},
 	"link" : 
@@ -365,12 +365,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ros_qt_demo",
-	"nameOnDisk" : "ros_qt_demo",
+	"name" : "robot_hmi",
+	"nameOnDisk" : "robot_hmi",
 	"paths" : 
 	{
-		"build" : "class1_ros_qt_demo",
-		"source" : "class1_ros_qt_demo"
+		"build" : "robot_hmi",
+		"source" : "robot_hmi"
 	},
 	"sourceGroups" : 
 	[
@@ -415,68 +415,68 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "class1_ros_qt_demo/src/main.cpp",
+			"path" : "robot_hmi/src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "class1_ros_qt_demo/src/main_window.cpp",
+			"path" : "robot_hmi/src/main_window.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "class1_ros_qt_demo/src/qnode.cpp",
+			"path" : "robot_hmi/src/qnode.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/qrc_images.cpp",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/ui_main_window.h",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/ui_main_window.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/include/class1_ros_qt_demo/moc_main_window.cpp",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/include/class1_ros_qt_demo/moc_qnode.cpp",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
-			"path" : "class1_ros_qt_demo/resources/images.qrc",
+			"path" : "robot_hmi/resources/images.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
-			"path" : "class1_ros_qt_demo/ui/main_window.ui",
+			"path" : "robot_hmi/ui/main_window.ui",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/include/class1_ros_qt_demo/moc_main_window.cpp.rule",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/include/class1_ros_qt_demo/moc_qnode.cpp.rule",
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

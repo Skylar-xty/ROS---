@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src/class1_ros_qt_demo/resources/images/icon.png
+  // /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/class1_ros_qt_demo/resources/images/icon.png
   0x0,0x0,0x91,0x13,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src
+CMAKE_SOURCE_DIR = /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build
+CMAKE_BINARY_DIR = /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -492,6 +492,19 @@ rosgraph_msgs_generate_messages_py/fast:
 	$(MAKE) -f class1_ros_qt_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make class1_ros_qt_demo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
+#=============================================================================
+# Target rules for targets named robot_hmi
+
+# Build rule for target.
+robot_hmi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_hmi
+.PHONY : robot_hmi
+
+# fast build rule for target.
+robot_hmi/fast:
+	$(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/build
+.PHONY : robot_hmi/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -530,6 +543,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... robot_hmi"
 .PHONY : help
 
 

@@ -1,0 +1,12 @@
+-I/opt/ros/noetic/include
+-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi
+-I/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="robot_hmi"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/main_window.hpp

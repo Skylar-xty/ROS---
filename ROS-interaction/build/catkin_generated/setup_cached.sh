@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build'
+export PWD='/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build'

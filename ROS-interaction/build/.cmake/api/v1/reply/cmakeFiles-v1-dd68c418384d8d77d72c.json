@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/3.16.3/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -240,7 +240,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -454,7 +454,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -583,7 +583,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -672,7 +672,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -911,7 +911,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/catkin/catkin_generated/version/package.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/catkin/catkin_generated/version/package.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -955,7 +955,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/catkin_generated/installspace/_setup_util.py"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/catkin_generated/installspace/_setup_util.py"
 		},
 		{
 			"isExternal" : true,
@@ -1015,7 +1015,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/catkin_generated/order_packages.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/catkin_generated/order_packages.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1231,11 +1231,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/ordered_paths.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/ordered_paths.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/ordered_paths.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/ordered_paths.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1408,7 +1408,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/package.cmake"
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/class1_ros_qt_demo/catkin_generated/package.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1444,13 +1444,340 @@
 		},
 		{
 			"path" : "class1_ros_qt_demo/resources/images.qrc"
+		},
+		{
+			"path" : "robot_hmi/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/catkinConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp/cmake/roscppConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp/cmake/roscppConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/cpp_common/cmake/cpp_commonConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/message_runtime/cmake/message_runtimeConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rostime/cmake/rostimeConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rostime/cmake/rostimeConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosconsole/cmake/rosconsoleConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosconsole/cmake/rosconsole-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/std_msgs/cmake/std_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/roscpp/cmake/roscpp-msg-extras.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/catkin_generated/ordered_paths.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/catkin_generated/ordered_paths.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.16/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "robot_hmi/package.xml"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/catkin_generated/package.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkg.context.pc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/em/pkg.pc.em"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkg.context.pc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/em/pkg.pc.em"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/catkin/cmake/templates/pkgConfig-version.cmake.in"
+		},
+		{
+			"path" : "robot_hmi/resources/images.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build",
-		"source" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src"
+		"build" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build",
+		"source" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src"
 	},
 	"version" : 
 	{

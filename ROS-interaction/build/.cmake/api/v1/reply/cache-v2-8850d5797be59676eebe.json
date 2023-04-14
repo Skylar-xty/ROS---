@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/devel"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel"
 		},
 		{
 			"name" : "CATKIN_ENABLE_TESTING",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/catkin_generated/env_cached.sh"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/catkin_generated/env_cached.sh"
 		},
 		{
 			"name" : "CATKIN_SKIP_TESTING",
@@ -107,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/test_results"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/test_results"
 		},
 		{
 			"name" : "CATKIN_WHITELIST_PACKAGES",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/install"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1735,7 +1735,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gmock"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gmock"
 		},
 		{
 			"name" : "GMOCK_FROM_SOURCE_MAIN_LIBRARIES",
@@ -1871,7 +1871,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gtest"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gtest"
 		},
 		{
 			"name" : "GTEST_FROM_SOURCE_MAIN_LIBRARIES",
@@ -2087,7 +2087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build"
 		},
 		{
 			"name" : "Project_SOURCE_DIR",
@@ -2099,7 +2099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src"
 		},
 		{
 			"name" : "Qt5Core_DIR",
@@ -2219,7 +2219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/install"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install"
 		},
 		{
 			"name" : "_gmock_INCLUDES",
@@ -2291,7 +2291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/class1_ros_qt_demo"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/class1_ros_qt_demo"
 		},
 		{
 			"name" : "class1_ros_qt_demo_SOURCE_DIR",
@@ -2303,7 +2303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/src/class1_ros_qt_demo"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/class1_ros_qt_demo"
 		},
 		{
 			"name" : "cpp_common_DIR",
@@ -2327,7 +2327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gtest/googlemock"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gtest/googlemock"
 		},
 		{
 			"name" : "gmock_LIB_DEPENDS",
@@ -2391,7 +2391,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gtest"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gtest"
 		},
 		{
 			"name" : "googletest-distribution_SOURCE_DIR",
@@ -2415,7 +2415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS-interaction/build/gtest/googletest"
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/gtest/googletest"
 		},
 		{
 			"name" : "gtest_SOURCE_DIR",
@@ -2544,6 +2544,30 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/message_runtime/cmake"
+		},
+		{
+			"name" : "robot_hmi_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi"
+		},
+		{
+			"name" : "robot_hmi_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi"
 		},
 		{
 			"name" : "rosconsole_DIR",
