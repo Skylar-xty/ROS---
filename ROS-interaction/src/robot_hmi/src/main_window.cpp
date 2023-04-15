@@ -50,8 +50,33 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     if ( ui.checkbox_remember_settings->isChecked() ) {
         on_button_connect_clicked(true);
     }
-}
 
+    //add
+    connect(ui.horizontalSlider_linear,SIGNAL(valueChanged(int)),this,SLOT(slot_linear_value_change(int)));
+    connect(ui.horizontalSlider_raw,SIGNAL(valueChanged(int)),this,SLOT(slot_raw_value_change(int)));
+
+    connect(ui.pushButton_i,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_j,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_l,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_m,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_dh,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_d,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_u,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_o,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+}
+void MainWindow::slot_linear_value_change(int value)
+{
+    ui.label_linear->setText(QString::number(value));
+}
+void MainWindow::slot_raw_value_change(int value)
+{
+    ui.label_raw->setText(QString::number(value));
+}
+void MainWindow::slot_pushbtn_click()
+{
+    QPushButton* btn=qobject_cast<QPushButton*> (sender());
+    qDebug()<<btn->text();
+}
 MainWindow::~MainWindow() {}
 
 /*****************************************************************************

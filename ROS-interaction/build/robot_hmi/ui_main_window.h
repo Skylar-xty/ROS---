@@ -17,6 +17,7 @@
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListView>
@@ -64,19 +65,25 @@ public:
     QPushButton *button_connect;
     QLabel *label_3;
     QSpacerItem *verticalSpacer;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
-    QSlider *horizontalSlider;
-    QSlider *horizontalSlider_2;
-    QLabel *label_4;
-    QLabel *label_5;
-    QPushButton *pushButton_6;
-    QPushButton *pushButton_8;
+    QPushButton *pushButton_u;
+    QPushButton *pushButton_i;
+    QPushButton *pushButton_o;
+    QLabel *label_linear;
+    QLabel *label_raw;
+    QPushButton *pushButton_l;
+    QPushButton *pushButton_dh;
     QCheckBox *checkBox;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_9;
-    QPushButton *pushButton_7;
+    QPushButton *pushButton_j;
+    QPushButton *pushButton_d;
+    QPushButton *pushButton_m;
+    QWidget *layoutWidget;
+    QHBoxLayout *horizontalLayout;
+    QLabel *label_4;
+    QSlider *horizontalSlider_linear;
+    QWidget *layoutWidget1;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label_5;
+    QSlider *horizontalSlider_raw;
     QWidget *tab_4;
     QMenuBar *menubar;
     QMenu *menu_File;
@@ -206,47 +213,75 @@ public:
 
         verticalLayout_4->addWidget(groupBox_2);
 
-        pushButton = new QPushButton(tab_3);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(20, 310, 77, 25));
-        pushButton_2 = new QPushButton(tab_3);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(101, 310, 78, 25));
-        pushButton_3 = new QPushButton(tab_3);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(183, 310, 77, 25));
-        horizontalSlider = new QSlider(tab_3);
-        horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
-        horizontalSlider->setGeometry(QRect(80, 400, 160, 16));
-        horizontalSlider->setOrientation(Qt::Horizontal);
-        horizontalSlider_2 = new QSlider(tab_3);
-        horizontalSlider_2->setObjectName(QString::fromUtf8("horizontalSlider_2"));
-        horizontalSlider_2->setGeometry(QRect(80, 420, 160, 16));
-        horizontalSlider_2->setOrientation(Qt::Horizontal);
-        label_4 = new QLabel(tab_3);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(10, 400, 67, 17));
-        label_5 = new QLabel(tab_3);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-        label_5->setGeometry(QRect(10, 420, 67, 17));
-        pushButton_6 = new QPushButton(tab_3);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(200, 340, 80, 25));
-        pushButton_8 = new QPushButton(tab_3);
-        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-        pushButton_8->setGeometry(QRect(101, 370, 78, 25));
+        pushButton_u = new QPushButton(tab_3);
+        pushButton_u->setObjectName(QString::fromUtf8("pushButton_u"));
+        pushButton_u->setGeometry(QRect(20, 310, 77, 25));
+        pushButton_i = new QPushButton(tab_3);
+        pushButton_i->setObjectName(QString::fromUtf8("pushButton_i"));
+        pushButton_i->setGeometry(QRect(101, 310, 78, 25));
+        pushButton_o = new QPushButton(tab_3);
+        pushButton_o->setObjectName(QString::fromUtf8("pushButton_o"));
+        pushButton_o->setGeometry(QRect(183, 310, 77, 25));
+        label_linear = new QLabel(tab_3);
+        label_linear->setObjectName(QString::fromUtf8("label_linear"));
+        label_linear->setGeometry(QRect(160, 400, 67, 17));
+        label_raw = new QLabel(tab_3);
+        label_raw->setObjectName(QString::fromUtf8("label_raw"));
+        label_raw->setGeometry(QRect(160, 420, 67, 17));
+        pushButton_l = new QPushButton(tab_3);
+        pushButton_l->setObjectName(QString::fromUtf8("pushButton_l"));
+        pushButton_l->setGeometry(QRect(200, 340, 80, 25));
+        pushButton_dh = new QPushButton(tab_3);
+        pushButton_dh->setObjectName(QString::fromUtf8("pushButton_dh"));
+        pushButton_dh->setGeometry(QRect(101, 370, 78, 25));
         checkBox = new QCheckBox(tab_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
         checkBox->setGeometry(QRect(104, 340, 92, 29));
-        pushButton_4 = new QPushButton(tab_3);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(20, 340, 80, 25));
-        pushButton_9 = new QPushButton(tab_3);
-        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
-        pushButton_9->setGeometry(QRect(183, 370, 77, 25));
-        pushButton_7 = new QPushButton(tab_3);
-        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
-        pushButton_7->setGeometry(QRect(20, 370, 77, 25));
+        pushButton_j = new QPushButton(tab_3);
+        pushButton_j->setObjectName(QString::fromUtf8("pushButton_j"));
+        pushButton_j->setGeometry(QRect(20, 340, 80, 25));
+        pushButton_d = new QPushButton(tab_3);
+        pushButton_d->setObjectName(QString::fromUtf8("pushButton_d"));
+        pushButton_d->setGeometry(QRect(183, 370, 77, 25));
+        pushButton_m = new QPushButton(tab_3);
+        pushButton_m->setObjectName(QString::fromUtf8("pushButton_m"));
+        pushButton_m->setGeometry(QRect(20, 370, 77, 25));
+        layoutWidget = new QWidget(tab_3);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(10, 400, 141, 25));
+        horizontalLayout = new QHBoxLayout(layoutWidget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        label_4 = new QLabel(layoutWidget);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+
+        horizontalLayout->addWidget(label_4);
+
+        horizontalSlider_linear = new QSlider(layoutWidget);
+        horizontalSlider_linear->setObjectName(QString::fromUtf8("horizontalSlider_linear"));
+        horizontalSlider_linear->setMaximum(100);
+        horizontalSlider_linear->setOrientation(Qt::Horizontal);
+
+        horizontalLayout->addWidget(horizontalSlider_linear);
+
+        layoutWidget1 = new QWidget(tab_3);
+        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
+        layoutWidget1->setGeometry(QRect(10, 420, 152, 25));
+        horizontalLayout_2 = new QHBoxLayout(layoutWidget1);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
+        label_5 = new QLabel(layoutWidget1);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+
+        horizontalLayout_2->addWidget(label_5);
+
+        horizontalSlider_raw = new QSlider(layoutWidget1);
+        horizontalSlider_raw->setObjectName(QString::fromUtf8("horizontalSlider_raw"));
+        horizontalSlider_raw->setMaximum(100);
+        horizontalSlider_raw->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_2->addWidget(horizontalSlider_raw);
+
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
@@ -318,41 +353,43 @@ public:
 #endif // QT_NO_STATUSTIP
         button_connect->setText(QApplication::translate("MainWindowDesign", "Connect", nullptr));
         label_3->setText(QApplication::translate("MainWindowDesign", "Ros Hostname", nullptr));
-        pushButton->setText(QApplication::translate("MainWindowDesign", "u", nullptr));
+        pushButton_u->setText(QApplication::translate("MainWindowDesign", "u", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton->setShortcut(QApplication::translate("MainWindowDesign", "U", nullptr));
+        pushButton_u->setShortcut(QApplication::translate("MainWindowDesign", "U", nullptr));
 #endif // QT_NO_SHORTCUT
-        pushButton_2->setText(QApplication::translate("MainWindowDesign", "i", nullptr));
+        pushButton_i->setText(QApplication::translate("MainWindowDesign", "i", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_2->setShortcut(QApplication::translate("MainWindowDesign", "I", nullptr));
+        pushButton_i->setShortcut(QApplication::translate("MainWindowDesign", "I", nullptr));
 #endif // QT_NO_SHORTCUT
-        pushButton_3->setText(QApplication::translate("MainWindowDesign", "o", nullptr));
+        pushButton_o->setText(QApplication::translate("MainWindowDesign", "o", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_3->setShortcut(QApplication::translate("MainWindowDesign", "O", nullptr));
+        pushButton_o->setShortcut(QApplication::translate("MainWindowDesign", "O", nullptr));
 #endif // QT_NO_SHORTCUT
-        label_4->setText(QApplication::translate("MainWindowDesign", "\347\272\277\351\200\237\345\272\246:", nullptr));
-        label_5->setText(QApplication::translate("MainWindowDesign", "\350\247\222\351\200\237\345\272\246\357\274\232", nullptr));
-        pushButton_6->setText(QApplication::translate("MainWindowDesign", "l", nullptr));
+        label_linear->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
+        label_raw->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
+        pushButton_l->setText(QApplication::translate("MainWindowDesign", "l", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_6->setShortcut(QApplication::translate("MainWindowDesign", "L", nullptr));
+        pushButton_l->setShortcut(QApplication::translate("MainWindowDesign", "L", nullptr));
 #endif // QT_NO_SHORTCUT
-        pushButton_8->setText(QApplication::translate("MainWindowDesign", "m", nullptr));
+        pushButton_dh->setText(QApplication::translate("MainWindowDesign", ",", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_8->setShortcut(QApplication::translate("MainWindowDesign", "M", nullptr));
+        pushButton_dh->setShortcut(QApplication::translate("MainWindowDesign", ",", nullptr));
 #endif // QT_NO_SHORTCUT
         checkBox->setText(QApplication::translate("MainWindowDesign", "\345\205\250\345\220\221\350\275\256\346\250\241\345\274\217", nullptr));
-        pushButton_4->setText(QApplication::translate("MainWindowDesign", "j", nullptr));
+        pushButton_j->setText(QApplication::translate("MainWindowDesign", "j", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_4->setShortcut(QApplication::translate("MainWindowDesign", "J", nullptr));
+        pushButton_j->setShortcut(QApplication::translate("MainWindowDesign", "J", nullptr));
 #endif // QT_NO_SHORTCUT
-        pushButton_9->setText(QApplication::translate("MainWindowDesign", ".", nullptr));
+        pushButton_d->setText(QApplication::translate("MainWindowDesign", ".", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_9->setShortcut(QApplication::translate("MainWindowDesign", ".", nullptr));
+        pushButton_d->setShortcut(QApplication::translate("MainWindowDesign", ".", nullptr));
 #endif // QT_NO_SHORTCUT
-        pushButton_7->setText(QApplication::translate("MainWindowDesign", "n", nullptr));
+        pushButton_m->setText(QApplication::translate("MainWindowDesign", "m", nullptr));
 #ifndef QT_NO_SHORTCUT
-        pushButton_7->setShortcut(QApplication::translate("MainWindowDesign", "N", nullptr));
+        pushButton_m->setShortcut(QApplication::translate("MainWindowDesign", "M", nullptr));
 #endif // QT_NO_SHORTCUT
+        label_4->setText(QApplication::translate("MainWindowDesign", "\347\272\277\351\200\237\345\272\246:", nullptr));
+        label_5->setText(QApplication::translate("MainWindowDesign", "\350\247\222\351\200\237\345\272\246:", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindowDesign", "Tab 1", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindowDesign", "Tab 2", nullptr));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", nullptr));

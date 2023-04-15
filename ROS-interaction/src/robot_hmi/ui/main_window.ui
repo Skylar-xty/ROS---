@@ -207,7 +207,7 @@
                 </item>
                </layout>
               </widget>
-              <widget class="QPushButton" name="pushButton">
+              <widget class="QPushButton" name="pushButton_u">
                <property name="geometry">
                 <rect>
                  <x>20</x>
@@ -223,7 +223,7 @@
                 <string>U</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_2">
+              <widget class="QPushButton" name="pushButton_i">
                <property name="geometry">
                 <rect>
                  <x>101</x>
@@ -239,7 +239,7 @@
                 <string>I</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_3">
+              <widget class="QPushButton" name="pushButton_o">
                <property name="geometry">
                 <rect>
                  <x>183</x>
@@ -255,7 +255,7 @@
                 <string>O</string>
                </property>
               </widget>
-              <widget class="QLabel" name="label_6">
+              <widget class="QLabel" name="label_linear">
                <property name="geometry">
                 <rect>
                  <x>160</x>
@@ -268,7 +268,7 @@
                 <string>0</string>
                </property>
               </widget>
-              <widget class="QLabel" name="label_7">
+              <widget class="QLabel" name="label_raw">
                <property name="geometry">
                 <rect>
                  <x>160</x>
@@ -281,7 +281,7 @@
                 <string>0</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_6">
+              <widget class="QPushButton" name="pushButton_l">
                <property name="geometry">
                 <rect>
                  <x>200</x>
@@ -297,7 +297,7 @@
                 <string>L</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_8">
+              <widget class="QPushButton" name="pushButton_dh">
                <property name="geometry">
                 <rect>
                  <x>101</x>
@@ -307,10 +307,10 @@
                 </rect>
                </property>
                <property name="text">
-                <string>m</string>
+                <string>,</string>
                </property>
                <property name="shortcut">
-                <string>M</string>
+                <string>,</string>
                </property>
               </widget>
               <widget class="QCheckBox" name="checkBox">
@@ -326,7 +326,7 @@
                 <string>全向轮模式</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_4">
+              <widget class="QPushButton" name="pushButton_j">
                <property name="geometry">
                 <rect>
                  <x>20</x>
@@ -342,7 +342,7 @@
                 <string>J</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_9">
+              <widget class="QPushButton" name="pushButton_d">
                <property name="geometry">
                 <rect>
                  <x>183</x>
@@ -358,7 +358,7 @@
                 <string>.</string>
                </property>
               </widget>
-              <widget class="QPushButton" name="pushButton_7">
+              <widget class="QPushButton" name="pushButton_m">
                <property name="geometry">
                 <rect>
                  <x>20</x>
@@ -368,13 +368,13 @@
                 </rect>
                </property>
                <property name="text">
-                <string>n</string>
+                <string>m</string>
                </property>
                <property name="shortcut">
-                <string>N</string>
+                <string>M</string>
                </property>
               </widget>
-              <widget class="QWidget" name="">
+              <widget class="QWidget" name="layoutWidget">
                <property name="geometry">
                 <rect>
                  <x>10</x>
@@ -393,6 +393,9 @@
                 </item>
                 <item>
                  <widget class="QSlider" name="horizontalSlider_linear">
+                  <property name="maximum">
+                   <number>100</number>
+                  </property>
                   <property name="orientation">
                    <enum>Qt::Horizontal</enum>
                   </property>
@@ -400,7 +403,7 @@
                 </item>
                </layout>
               </widget>
-              <widget class="QWidget" name="">
+              <widget class="QWidget" name="layoutWidget">
                <property name="geometry">
                 <rect>
                  <x>10</x>
@@ -419,6 +422,9 @@
                 </item>
                 <item>
                  <widget class="QSlider" name="horizontalSlider_raw">
+                  <property name="maximum">
+                   <number>100</number>
+                  </property>
                   <property name="orientation">
                    <enum>Qt::Horizontal</enum>
                   </property>

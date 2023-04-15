@@ -56,6 +56,10 @@ public Q_SLOTS:
     *******************************************/
     void updateLoggingView(); // no idea why this can't connect automatically
 
+    //add
+    void slot_linear_value_change(int);
+    void slot_raw_value_change(int);
+    void slot_pushbtn_click();
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;

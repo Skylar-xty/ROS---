@@ -186,6 +186,7 @@ robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
+robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView
@@ -760,6 +761,7 @@ robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
+robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView
@@ -1202,6 +1204,7 @@ robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-li
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
+robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView

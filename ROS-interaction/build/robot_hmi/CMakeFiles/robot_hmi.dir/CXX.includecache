@@ -14,6 +14,14 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp
+../../../../src/robot_hmi/include/robot_hmi/qnode.hpp
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/qnode.hpp
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/main_window.hpp
 QtWidgets/QMainWindow
 -
@@ -33,6 +41,8 @@ QStringListModel
 -
 std_msgs/String.h
 -
+map
+-
 
 /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp
 QtGui
@@ -51,6 +61,20 @@ iostream
 -
 ../include/robot_hmi/main_window.hpp
 /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/main_window.hpp
+
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp
+ros/ros.h
+-
+ros/network.h
+-
+string
+-
+std_msgs/String.h
+-
+sstream
+-
+../include/robot_hmi/qnode.hpp
+/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/qnode.hpp
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -281,6 +305,12 @@ boost/type_traits/remove_reference.hpp
 -
 
 /opt/ros/noetic/include/ros/names.h
+forwards.h
+/opt/ros/noetic/include/ros/forwards.h
+common.h
+/opt/ros/noetic/include/ros/common.h
+
+/opt/ros/noetic/include/ros/network.h
 forwards.h
 /opt/ros/noetic/include/ros/forwards.h
 common.h
@@ -4138,6 +4168,10 @@ qgridlayout.h
 qgroupbox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
+qboxlayout.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
@@ -4568,6 +4602,8 @@ QtWidgets/QCheckBox
 QtWidgets/QGridLayout
 -
 QtWidgets/QGroupBox
+-
+QtWidgets/QHBoxLayout
 -
 QtWidgets/QLabel
 -
