@@ -76,6 +76,39 @@ void MainWindow::slot_pushbtn_click()
 {
     QPushButton* btn=qobject_cast<QPushButton*> (sender());
     qDebug()<<btn->text();
+    //
+    char k = btn->text().toStdString()[0];
+    bool is_all = ui.checkBox->isChecked();
+    float linear = ui.label_linear->text().toFloat()*0.01;
+    float angular = ui.label_raw->text().toFloat()*0.01;
+
+    switch(k){
+        case 'i':
+            qnode.set_cmd_vel(is_all?'I':'i',linear,angular);
+            break;
+        case 'u':
+            qnode.set_cmd_vel(is_all?'U':'u',linear,angular);
+            break;
+        case 'o':
+            qnode.set_cmd_vel(is_all?'O':'o',linear,angular);
+            break;
+        case 'j':
+            qnode.set_cmd_vel(is_all?'J':'j',linear,angular);
+            break;
+        case 'l':
+            qnode.set_cmd_vel(is_all?'L':'l',linear,angular);
+            break;
+        case 'm':
+            qnode.set_cmd_vel(is_all?'M':'m',linear,angular);
+            break;
+        case ',':
+            qnode.set_cmd_vel(is_all?'<':',',linear,angular);
+            break;
+        case '.':
+            qnode.set_cmd_vel(is_all?'>':'.',linear,angular);
+            break;
+        }
+
 }
 MainWindow::~MainWindow() {}
 

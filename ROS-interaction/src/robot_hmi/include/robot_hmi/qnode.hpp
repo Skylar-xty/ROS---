@@ -27,6 +27,7 @@
 #include <QStringListModel>
 #include <std_msgs/String.h>
 #include <map>
+#include <geometry_msgs/Twist.h>
 /*****************************************************************************
 ** Namespaces
 *****************************************************************************/
@@ -46,7 +47,7 @@ public:
 	bool init();
 	bool init(const std::string &master_url, const std::string &host_url);
 	void run();
-
+    void set_cmd_vel(char k,float linear,float angular);
 	/*********************
 	** Logging
 	**********************/
@@ -75,6 +76,7 @@ private:
     ros::Subscriber chatter_sub;
     //回调函数
     void chatter_callback(const std_msgs::String &msg);
+    ros::Publisher cmd_vel_pub;
 };
 
 }  // namespace class1_ros_qt_demo

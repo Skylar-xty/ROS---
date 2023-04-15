@@ -52,7 +52,8 @@ bool QNode::init() {
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
     // add
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
-	start();
+    cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    start();
 	return true;
 }
 
@@ -72,12 +73,57 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
 
     // add
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
-	start();
+    cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    start();
 	return true;
 }
 //add
 void QNode::chatter_callback(const std_msgs::String &msg){
     log(Info,"I RECEIVE"+msg.data);
+}
+
+void QNode::set_cmd_vel(char k,float linear,float angular)
+{
+    std::map<char, std::vector<float>> moveBindings
+    {
+      {'i', {1, 0, 0, 0}},
+      {'o', {1, 0, 0, -1}},
+      {'j', {0, 0, 0, 1}},
+      {'l', {0, 0, 0, -1}},
+      {'u', {1, 0, 0, 1}},
+      {',', {-1, 0, 0, 0}},
+      {'.', {-1, 0, 0, 1}},
+      {'m', {-1, 0, 0, -1}},
+      {'O', {1, -1, 0, 0}},
+      {'I', {1, 0, 0, 0}},
+      {'J', {0, 1, 0, 0}},
+      {'L', {0, -1, 0, 0}},
+      {'U', {1, 1, 0, 0}},
+      {'<', {-1, 0, 0, 0}},
+      {'>', {-1, -1, 0, 0}},
+      {'M', {-1, 1, 0, 0}},
+      {'t', {0, 0, 1, 0}},
+      {'b', {0, 0, -1, 0}},
+      {'k', {0, 0, 0, 0}},
+      {'K', {0, 0, 0, 0}}
+    };
+    char key = k;
+      // Grab the direction data
+    float x = moveBindings[key][0];
+    float y = moveBindings[key][1];
+    float z = moveBindings[key][2];
+    float th = moveBindings[key][3];
+    //声明一个数据类型
+    geometry_msgs::Twist twist;
+    twist.linear.x = x*linear;
+    twist.linear.y = y*linear;
+    twist.linear.z = z*linear;
+
+    twist.angular.x = 0;
+    twist.angular.y = 0;
+    twist.angular.z = th*angular;
+
+    cmd_vel_pub.publish(twist);
 }
 void QNode::run() {
 	ros::Rate loop_rate(1);
