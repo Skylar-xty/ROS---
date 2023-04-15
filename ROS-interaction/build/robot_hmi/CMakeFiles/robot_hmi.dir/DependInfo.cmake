@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o"
+  "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o"
   "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp" "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o"

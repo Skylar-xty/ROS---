@@ -63,7 +63,25 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_d,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
     connect(ui.pushButton_u,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
     connect(ui.pushButton_o,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+
+    connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
+    //init ui
+    speed_x_dashBoard = new CCtrlDashBoard(ui.widget_speed_x);
+    speed_y_dashBoard = new CCtrlDashBoard(ui.widget_speed_y);
+    speed_x_dashBoard->setGeometry(ui.widget_speed_x->rect()); //dashBoard大小和widget相同
+    speed_y_dashBoard->setGeometry(ui.widget_speed_y->rect());
+    speed_x_dashBoard->setValue(0);
+    speed_y_dashBoard->setValue(0);
 }
+void MainWindow::slot_update_dashboard(float x,float y)
+{
+    //设置正反向：
+    ui.label_dir_x->setText(x>0?"正向":"反向");
+    ui.label_dir_y->setText(y>0?"正向":"反向");
+    speed_x_dashBoard->setValue(abs(x)*100);//单位转换
+    speed_y_dashBoard->setValue(abs(y)*100);
+}
+
 void MainWindow::slot_linear_value_change(int value)
 {
     ui.label_linear->setText(QString::number(value));

@@ -16,7 +16,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_main_window.h"
 #include "qnode.hpp"
-
+#include "CCtrlDashBoard.h"
 /*****************************************************************************
 ** Namespace
 *****************************************************************************/
@@ -60,9 +60,12 @@ public Q_SLOTS:
     void slot_linear_value_change(int);
     void slot_raw_value_change(int);
     void slot_pushbtn_click();
+    void slot_update_dashboard(float,float);
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;
+    CCtrlDashBoard* speed_x_dashBoard;
+    CCtrlDashBoard* speed_y_dashBoard;
 };
 
 }  // namespace class1_ros_qt_demo

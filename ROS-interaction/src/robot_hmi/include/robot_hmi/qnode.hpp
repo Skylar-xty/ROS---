@@ -28,6 +28,7 @@
 #include <std_msgs/String.h>
 #include <map>
 #include <geometry_msgs/Twist.h>
+#include <nav_msgs/Odometry.h>
 /*****************************************************************************
 ** Namespaces
 *****************************************************************************/
@@ -65,6 +66,7 @@ public:
 Q_SIGNALS:
 	void loggingUpdated();
     void rosShutdown();
+    void speed_vel(float,float);
 
 private:
 	int init_argc;
@@ -74,8 +76,10 @@ private:
 
     //add
     ros::Subscriber chatter_sub;
+    ros::Subscriber odom_sub;
     //回调函数
     void chatter_callback(const std_msgs::String &msg);
+    void odom_callback(const nav_msgs::Odometry &msg);
     ros::Publisher cmd_vel_pub;
 };
 

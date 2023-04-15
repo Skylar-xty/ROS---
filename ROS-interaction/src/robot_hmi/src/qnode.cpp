@@ -53,6 +53,8 @@ bool QNode::init() {
     // add
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+
+    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
     start();
 	return true;
 }
@@ -74,6 +76,8 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
     // add
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
+
     start();
 	return true;
 }
@@ -81,7 +85,10 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
 void QNode::chatter_callback(const std_msgs::String &msg){
     log(Info,"I RECEIVE"+msg.data);
 }
-
+void QNode::odom_callback(const nav_msgs::Odometry &msg)
+{
+    emit speed_vel(msg.twist.twist.linear.x,msg.twist.twist.linear.x);
+}
 void QNode::set_cmd_vel(char k,float linear,float angular)
 {
     std::map<char, std::vector<float>> moveBindings

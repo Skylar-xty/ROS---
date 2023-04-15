@@ -182,6 +182,33 @@ robot_hmi/fast:
 	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/build
 .PHONY : robot_hmi/fast
 
+include/robot_hmi/moc_CCtrlDashBoard.o: include/robot_hmi/moc_CCtrlDashBoard.cpp.o
+
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.o
+
+# target to build an object file
+include/robot_hmi/moc_CCtrlDashBoard.cpp.o:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.cpp.o
+
+include/robot_hmi/moc_CCtrlDashBoard.i: include/robot_hmi/moc_CCtrlDashBoard.cpp.i
+
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.i
+
+# target to preprocess a source file
+include/robot_hmi/moc_CCtrlDashBoard.cpp.i:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.i
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.cpp.i
+
+include/robot_hmi/moc_CCtrlDashBoard.s: include/robot_hmi/moc_CCtrlDashBoard.cpp.s
+
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.s
+
+# target to generate assembly for a file
+include/robot_hmi/moc_CCtrlDashBoard.cpp.s:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.s
+.PHONY : include/robot_hmi/moc_CCtrlDashBoard.cpp.s
+
 include/robot_hmi/moc_main_window.o: include/robot_hmi/moc_main_window.cpp.o
 
 .PHONY : include/robot_hmi/moc_main_window.o
@@ -262,6 +289,33 @@ qrc_images.s: qrc_images.cpp.s
 qrc_images.cpp.s:
 	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.s
 .PHONY : qrc_images.cpp.s
+
+src/CCtrlDashBoard.o: src/CCtrlDashBoard.cpp.o
+
+.PHONY : src/CCtrlDashBoard.o
+
+# target to build an object file
+src/CCtrlDashBoard.cpp.o:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o
+.PHONY : src/CCtrlDashBoard.cpp.o
+
+src/CCtrlDashBoard.i: src/CCtrlDashBoard.cpp.i
+
+.PHONY : src/CCtrlDashBoard.i
+
+# target to preprocess a source file
+src/CCtrlDashBoard.cpp.i:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.i
+.PHONY : src/CCtrlDashBoard.cpp.i
+
+src/CCtrlDashBoard.s: src/CCtrlDashBoard.cpp.s
+
+.PHONY : src/CCtrlDashBoard.s
+
+# target to generate assembly for a file
+src/CCtrlDashBoard.cpp.s:
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(MAKE) -f robot_hmi/CMakeFiles/robot_hmi.dir/build.make robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.s
+.PHONY : src/CCtrlDashBoard.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -358,6 +412,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... robot_hmi"
+	@echo "... include/robot_hmi/moc_CCtrlDashBoard.o"
+	@echo "... include/robot_hmi/moc_CCtrlDashBoard.i"
+	@echo "... include/robot_hmi/moc_CCtrlDashBoard.s"
 	@echo "... include/robot_hmi/moc_main_window.o"
 	@echo "... include/robot_hmi/moc_main_window.i"
 	@echo "... include/robot_hmi/moc_main_window.s"
@@ -367,6 +424,9 @@ help:
 	@echo "... qrc_images.o"
 	@echo "... qrc_images.i"
 	@echo "... qrc_images.s"
+	@echo "... src/CCtrlDashBoard.o"
+	@echo "... src/CCtrlDashBoard.i"
+	@echo "... src/CCtrlDashBoard.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

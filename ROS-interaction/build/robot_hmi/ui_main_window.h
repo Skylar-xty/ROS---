@@ -15,6 +15,7 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
+#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
@@ -47,7 +48,6 @@ public:
     QWidget *tab_status;
     QVBoxLayout *verticalLayout_2;
     QGroupBox *groupBox_12;
-    QGridLayout *gridLayout_3;
     QListView *view_logging;
     QTabWidget *tabWidget;
     QWidget *tab_3;
@@ -68,23 +68,31 @@ public:
     QPushButton *pushButton_u;
     QPushButton *pushButton_i;
     QPushButton *pushButton_o;
-    QLabel *label_linear;
-    QLabel *label_raw;
     QPushButton *pushButton_l;
     QPushButton *pushButton_dh;
     QCheckBox *checkBox;
     QPushButton *pushButton_j;
     QPushButton *pushButton_d;
     QPushButton *pushButton_m;
-    QWidget *layoutWidget;
+    QWidget *widget;
+    QFormLayout *formLayout;
     QHBoxLayout *horizontalLayout;
     QLabel *label_4;
     QSlider *horizontalSlider_linear;
-    QWidget *layoutWidget1;
+    QLabel *label_linear;
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_5;
     QSlider *horizontalSlider_raw;
+    QLabel *label_raw;
     QWidget *tab_4;
+    QWidget *layoutWidget;
+    QGridLayout *gridLayout_2;
+    QWidget *widget_speed_x;
+    QWidget *widget_speed_y;
+    QLabel *label_6;
+    QLabel *label_dir_x;
+    QLabel *label_7;
+    QLabel *label_dir_y;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -93,7 +101,8 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QString::fromUtf8("MainWindowDesign"));
-        MainWindowDesign->resize(890, 640);
+        MainWindowDesign->resize(1102, 734);
+        MainWindowDesign->setMinimumSize(QSize(1000, 500));
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -126,15 +135,12 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(groupBox_12->sizePolicy().hasHeightForWidth());
         groupBox_12->setSizePolicy(sizePolicy);
-        gridLayout_3 = new QGridLayout(groupBox_12);
-        gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         view_logging = new QListView(groupBox_12);
         view_logging->setObjectName(QString::fromUtf8("view_logging"));
-
-        gridLayout_3->addWidget(view_logging, 0, 0, 1, 1);
-
+        view_logging->setGeometry(QRect(80, 410, 256, 192));
         tabWidget = new QTabWidget(groupBox_12);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
+        tabWidget->setGeometry(QRect(630, 30, 431, 581));
         tab_3 = new QWidget();
         tab_3->setObjectName(QString::fromUtf8("tab_3"));
         groupBox = new QGroupBox(tab_3);
@@ -222,12 +228,6 @@ public:
         pushButton_o = new QPushButton(tab_3);
         pushButton_o->setObjectName(QString::fromUtf8("pushButton_o"));
         pushButton_o->setGeometry(QRect(183, 310, 77, 25));
-        label_linear = new QLabel(tab_3);
-        label_linear->setObjectName(QString::fromUtf8("label_linear"));
-        label_linear->setGeometry(QRect(160, 400, 67, 17));
-        label_raw = new QLabel(tab_3);
-        label_raw->setObjectName(QString::fromUtf8("label_raw"));
-        label_raw->setGeometry(QRect(160, 420, 67, 17));
         pushButton_l = new QPushButton(tab_3);
         pushButton_l->setObjectName(QString::fromUtf8("pushButton_l"));
         pushButton_l->setGeometry(QRect(200, 340, 80, 25));
@@ -246,48 +246,97 @@ public:
         pushButton_m = new QPushButton(tab_3);
         pushButton_m->setObjectName(QString::fromUtf8("pushButton_m"));
         pushButton_m->setGeometry(QRect(20, 370, 77, 25));
-        layoutWidget = new QWidget(tab_3);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(10, 400, 141, 25));
-        horizontalLayout = new QHBoxLayout(layoutWidget);
+        widget = new QWidget(tab_3);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(10, 400, 171, 71));
+        formLayout = new QFormLayout(widget);
+        formLayout->setObjectName(QString::fromUtf8("formLayout"));
+        formLayout->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label_4 = new QLabel(layoutWidget);
+        label_4 = new QLabel(widget);
         label_4->setObjectName(QString::fromUtf8("label_4"));
 
         horizontalLayout->addWidget(label_4);
 
-        horizontalSlider_linear = new QSlider(layoutWidget);
+        horizontalSlider_linear = new QSlider(widget);
         horizontalSlider_linear->setObjectName(QString::fromUtf8("horizontalSlider_linear"));
         horizontalSlider_linear->setMaximum(100);
         horizontalSlider_linear->setOrientation(Qt::Horizontal);
 
         horizontalLayout->addWidget(horizontalSlider_linear);
 
-        layoutWidget1 = new QWidget(tab_3);
-        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(10, 420, 152, 25));
-        horizontalLayout_2 = new QHBoxLayout(layoutWidget1);
+
+        formLayout->setLayout(0, QFormLayout::LabelRole, horizontalLayout);
+
+        label_linear = new QLabel(widget);
+        label_linear->setObjectName(QString::fromUtf8("label_linear"));
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, label_linear);
+
+        horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_5 = new QLabel(layoutWidget1);
+        label_5 = new QLabel(widget);
         label_5->setObjectName(QString::fromUtf8("label_5"));
 
         horizontalLayout_2->addWidget(label_5);
 
-        horizontalSlider_raw = new QSlider(layoutWidget1);
+        horizontalSlider_raw = new QSlider(widget);
         horizontalSlider_raw->setObjectName(QString::fromUtf8("horizontalSlider_raw"));
         horizontalSlider_raw->setMaximum(100);
         horizontalSlider_raw->setOrientation(Qt::Horizontal);
 
         horizontalLayout_2->addWidget(horizontalSlider_raw);
 
+
+        formLayout->setLayout(1, QFormLayout::LabelRole, horizontalLayout_2);
+
+        label_raw = new QLabel(widget);
+        label_raw->setObjectName(QString::fromUtf8("label_raw"));
+
+        formLayout->setWidget(1, QFormLayout::FieldRole, label_raw);
+
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
         tabWidget->addTab(tab_4, QString());
+        layoutWidget = new QWidget(groupBox_12);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(30, 30, 608, 331));
+        gridLayout_2 = new QGridLayout(layoutWidget);
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        gridLayout_2->setContentsMargins(0, 0, 0, 0);
+        widget_speed_x = new QWidget(layoutWidget);
+        widget_speed_x->setObjectName(QString::fromUtf8("widget_speed_x"));
+        widget_speed_x->setMinimumSize(QSize(300, 300));
 
-        gridLayout_3->addWidget(tabWidget, 0, 1, 1, 1);
+        gridLayout_2->addWidget(widget_speed_x, 0, 0, 1, 2);
+
+        widget_speed_y = new QWidget(layoutWidget);
+        widget_speed_y->setObjectName(QString::fromUtf8("widget_speed_y"));
+        widget_speed_y->setMinimumSize(QSize(300, 300));
+
+        gridLayout_2->addWidget(widget_speed_y, 0, 2, 1, 2);
+
+        label_6 = new QLabel(layoutWidget);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+
+        gridLayout_2->addWidget(label_6, 1, 0, 1, 1);
+
+        label_dir_x = new QLabel(layoutWidget);
+        label_dir_x->setObjectName(QString::fromUtf8("label_dir_x"));
+
+        gridLayout_2->addWidget(label_dir_x, 1, 1, 1, 1);
+
+        label_7 = new QLabel(layoutWidget);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+
+        gridLayout_2->addWidget(label_7, 1, 2, 1, 1);
+
+        label_dir_y = new QLabel(layoutWidget);
+        label_dir_y->setObjectName(QString::fromUtf8("label_dir_y"));
+
+        gridLayout_2->addWidget(label_dir_y, 1, 3, 1, 1);
 
 
         verticalLayout_2->addWidget(groupBox_12);
@@ -299,7 +348,7 @@ public:
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 890, 28));
+        menubar->setGeometry(QRect(0, 0, 1102, 28));
         menu_File = new QMenu(menubar);
         menu_File->setObjectName(QString::fromUtf8("menu_File"));
         MainWindowDesign->setMenuBar(menubar);
@@ -365,8 +414,6 @@ public:
 #ifndef QT_NO_SHORTCUT
         pushButton_o->setShortcut(QApplication::translate("MainWindowDesign", "O", nullptr));
 #endif // QT_NO_SHORTCUT
-        label_linear->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
-        label_raw->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
         pushButton_l->setText(QApplication::translate("MainWindowDesign", "l", nullptr));
 #ifndef QT_NO_SHORTCUT
         pushButton_l->setShortcut(QApplication::translate("MainWindowDesign", "L", nullptr));
@@ -389,9 +436,15 @@ public:
         pushButton_m->setShortcut(QApplication::translate("MainWindowDesign", "M", nullptr));
 #endif // QT_NO_SHORTCUT
         label_4->setText(QApplication::translate("MainWindowDesign", "\347\272\277\351\200\237\345\272\246:", nullptr));
+        label_linear->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
         label_5->setText(QApplication::translate("MainWindowDesign", "\350\247\222\351\200\237\345\272\246:", nullptr));
+        label_raw->setText(QApplication::translate("MainWindowDesign", "0", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("MainWindowDesign", "Tab 1", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindowDesign", "Tab 2", nullptr));
+        label_6->setText(QApplication::translate("MainWindowDesign", "x\350\275\264\347\272\277\351\200\237\345\272\246", nullptr));
+        label_dir_x->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", nullptr));
+        label_7->setText(QApplication::translate("MainWindowDesign", "y\350\275\264\347\272\277\351\200\237\345\272\246", nullptr));
+        label_dir_y->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", nullptr));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", nullptr));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", nullptr));
     } // retranslateUi
