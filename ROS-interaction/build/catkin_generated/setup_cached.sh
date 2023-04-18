@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src:$ROS_PACKAGE_PATH"

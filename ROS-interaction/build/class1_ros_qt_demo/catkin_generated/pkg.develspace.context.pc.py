@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "class1_ros_qt_demo"
-PROJECT_SPACE_DIR = "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel"
+PROJECT_SPACE_DIR = "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/devel"
 PROJECT_VERSION = "0.1.0"

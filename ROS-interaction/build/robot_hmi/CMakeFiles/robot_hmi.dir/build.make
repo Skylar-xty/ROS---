@@ -58,6 +58,96 @@ include robot_hmi/CMakeFiles/robot_hmi.dir/progress.make
 include robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 
 robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/icon.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/zoom.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/warning.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/wait3.gif
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/wait2.gif
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/wait1.gif
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/visibility.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up_right_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up_right.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up_left_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up_left.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/up.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnRight_l.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnRight_hl.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnRight_h.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnLeft_l.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnLeft_hl.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/turnLeft_h.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/toolbar_settings.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/toolbar_other.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/toolbar_map.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/toolbar_dash.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/status.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/speed.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/Slam.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/show.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/setting2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/setting.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/set_return.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/rotate_cam.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/rotate.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/robot_yellow.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/robot_red.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/robot_blue.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/robot2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/robot.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/right_dock.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/right_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/right.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/return.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/refreash.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/power-v.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/power.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/plus.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/package.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/options.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/online.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/ok.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/offline.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/Navigate.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/mutil_pose.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/move_z.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/moverotate.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/move2d.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/move1d.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/minus.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/min.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/menu.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/max.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/line.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/left_dock.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/left_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/left.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/jiqiren-9.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/jiqiren-8.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/hide.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/grid.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/get_pos.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/forbidden.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/false.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/failed_display.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/error.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down_right_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down_right.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down_left_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down_left.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down_2.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/down.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/display.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/default_package_icon.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/default_class_icon.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/cursor_pos.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/cursor_point.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/cursor_mutile_pose.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/cursor_move.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/cursor.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/crosshair.svg
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/control.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/close.png
+robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images/all_control.png
 robot_hmi/qrc_images.cpp: robot_hmi/resources/images.qrc.depends
 robot_hmi/qrc_images.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/resources/images.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cpp"
@@ -79,109 +169,139 @@ robot_hmi/include/robot_hmi/moc_qnode.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--in
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/robot_hmi/moc_qnode.cpp"
 	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi && /usr/lib/qt5/bin/moc @/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp_parameters
 
+robot_hmi/include/robot_hmi/moc_qrviz.cpp: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/include/robot_hmi/qrviz.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/robot_hmi/moc_qrviz.cpp"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi && /usr/lib/qt5/bin/moc @/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qrviz.cpp_parameters
+
 robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp > CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp > CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp -o CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/CCtrlDashBoard.cpp -o CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/main.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/main.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/src/main.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp > CMakeFiles/robot_hmi.dir/src/main.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp > CMakeFiles/robot_hmi.dir/src/main.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/src/main.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp -o CMakeFiles/robot_hmi.dir/src/main.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main.cpp -o CMakeFiles/robot_hmi.dir/src/main.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/main_window.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/main_window.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/src/main_window.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp > CMakeFiles/robot_hmi.dir/src/main_window.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp > CMakeFiles/robot_hmi.dir/src/main_window.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/src/main_window.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp -o CMakeFiles/robot_hmi.dir/src/main_window.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/main_window.cpp -o CMakeFiles/robot_hmi.dir/src/main_window.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/qnode.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/qnode.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/src/qnode.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp > CMakeFiles/robot_hmi.dir/src/qnode.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp > CMakeFiles/robot_hmi.dir/src/qnode.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/src/qnode.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp -o CMakeFiles/robot_hmi.dir/src/qnode.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qnode.cpp -o CMakeFiles/robot_hmi.dir/src/qnode.cpp.s
+
+robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
+robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qrviz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qrviz.cpp
+
+robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/src/qrviz.cpp.i"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qrviz.cpp > CMakeFiles/robot_hmi.dir/src/qrviz.cpp.i
+
+robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/src/qrviz.cpp.s"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi/src/qrviz.cpp -o CMakeFiles/robot_hmi.dir/src/qrviz.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o: robot_hmi/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/qrc_images.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/qrc_images.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/qrc_images.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp > CMakeFiles/robot_hmi.dir/qrc_images.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp > CMakeFiles/robot_hmi.dir/qrc_images.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/qrc_images.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp -o CMakeFiles/robot_hmi.dir/qrc_images.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/qrc_images.cpp -o CMakeFiles/robot_hmi.dir/qrc_images.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o: robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o: robot_hmi/include/robot_hmi/moc_main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_main_window.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.s
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o: robot_hmi/include/robot_hmi/moc_qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.i"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.i
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.i
 
 robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.s"
-	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.s
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qnode.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.s
+
+robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o: robot_hmi/CMakeFiles/robot_hmi.dir/flags.make
+robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o: robot_hmi/include/robot_hmi/moc_qrviz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o -c /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qrviz.cpp
+
+robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.i"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qrviz.cpp > CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.i
+
+robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.s"
+	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/include/robot_hmi/moc_qrviz.cpp -o CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.s
 
 # Object files for target robot_hmi
 robot_hmi_OBJECTS = \
@@ -189,49 +309,132 @@ robot_hmi_OBJECTS = \
 "CMakeFiles/robot_hmi.dir/src/main.cpp.o" \
 "CMakeFiles/robot_hmi.dir/src/main_window.cpp.o" \
 "CMakeFiles/robot_hmi.dir/src/qnode.cpp.o" \
+"CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o" \
 "CMakeFiles/robot_hmi.dir/qrc_images.cpp.o" \
 "CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o" \
 "CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o" \
-"CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o"
+"CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o" \
+"CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o"
 
 # External object files for target robot_hmi
 robot_hmi_EXTERNAL_OBJECTS =
 
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/build.make
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libroscpp.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librostime.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libcpp_common.so
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi"
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/CCtrlDashBoard.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/main.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/main_window.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/qnode.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/src/qrviz.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/qrc_images.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_CCtrlDashBoard.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_main_window.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qnode.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/include/robot_hmi/moc_qrviz.cpp.o
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/build.make
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libcv_bridge.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librviz.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libGLX.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libGLU.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libimage_transport.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libinteractive_markers.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/liblaser_geometry.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libtf.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libresource_retriever.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libtf2_ros.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libactionlib.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libmessage_filters.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libtf2.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/liburdf.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libclass_loader.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libdl.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libroslib.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librospack.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole_bridge.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libroscpp.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libxmlrpcpp.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libroscpp_serialization.so
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/librostime.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /opt/ros/noetic/lib/libcpp_common.so
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+devel/lib/robot_hmi/robot_hmi: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+devel/lib/robot_hmi/robot_hmi: robot_hmi/CMakeFiles/robot_hmi.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable ../devel/lib/robot_hmi/robot_hmi"
 	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_hmi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-robot_hmi/CMakeFiles/robot_hmi.dir/build: /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi
+robot_hmi/CMakeFiles/robot_hmi.dir/build: devel/lib/robot_hmi/robot_hmi
 
 .PHONY : robot_hmi/CMakeFiles/robot_hmi.dir/build
 
@@ -244,6 +447,7 @@ robot_hmi/CMakeFiles/robot_hmi.dir/depend: robot_hmi/ui_main_window.h
 robot_hmi/CMakeFiles/robot_hmi.dir/depend: robot_hmi/include/robot_hmi/moc_CCtrlDashBoard.cpp
 robot_hmi/CMakeFiles/robot_hmi.dir/depend: robot_hmi/include/robot_hmi/moc_main_window.cpp
 robot_hmi/CMakeFiles/robot_hmi.dir/depend: robot_hmi/include/robot_hmi/moc_qnode.cpp
+robot_hmi/CMakeFiles/robot_hmi.dir/depend: robot_hmi/include/robot_hmi/moc_qrviz.cpp
 	cd /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/src/robot_hmi /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi /home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/robot_hmi/CMakeFiles/robot_hmi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_hmi/CMakeFiles/robot_hmi.dir/depend
 

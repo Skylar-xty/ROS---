@@ -54,7 +54,10 @@ bool QNode::init() {
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
 
-    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
+//    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
+    odom_sub = n.subscribe("odom",1000,&QNode::odom_callback,this);
+    amcl_pose_sub = n.subscribe("amcl_pose",1000,&QNode::amcl_pose_callback,this);
+    goal_pub= n.advertise<geometry_msgs::PoseStamped>("move_base_simple/goal",1000);
     start();
 	return true;
 }
@@ -76,12 +79,15 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
     // add
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub=n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
-    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
-
+//    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);
+    odom_sub = n.subscribe("odom",1000,&QNode::odom_callback,this);
+    amcl_pose_sub = n.subscribe("amcl_pose",1000,&QNode::amcl_pose_callback,this);
+    goal_pub= n.advertise<geometry_msgs::PoseStamped>("move_base_simple/goal",1000);
     start();
 	return true;
 }
 //add
+
 void QNode::chatter_callback(const std_msgs::String &msg){
     log(Info,"I RECEIVE"+msg.data);
 }
@@ -131,6 +137,61 @@ void QNode::set_cmd_vel(char k,float linear,float angular)
     twist.angular.z = th*angular;
 
     cmd_vel_pub.publish(twist);
+}
+void QNode::sub_image(QString topic_name)
+{
+    ros::NodeHandle n;
+    image_transport::ImageTransport it_(n);
+    image_sub=it_.subscribe(topic_name.toStdString(),1000,&QNode::image_callback,this);
+}
+void QNode::image_callback(const sensor_msgs::ImageConstPtr &msg)
+{
+    cv_bridge::CvImagePtr cv_ptr;
+    cv_ptr = cv_bridge::toCvCopy(msg,msg->encoding);
+    QImage im = Mat2QImage(cv_ptr->image);
+    emit image_val(im);
+}
+QImage QNode::Mat2QImage(cv::Mat const& src)
+{
+  QImage dest(src.cols, src.rows, QImage::Format_ARGB32);
+
+  const float scale = 255.0;
+
+  if (src.depth() == CV_8U) {
+    if (src.channels() == 1) {
+      for (int i = 0; i < src.rows; ++i) {
+        for (int j = 0; j < src.cols; ++j) {
+          int level = src.at<quint8>(i, j);
+          dest.setPixel(j, i, qRgb(level, level, level));
+        }
+      }
+    } else if (src.channels() == 3) {
+      for (int i = 0; i < src.rows; ++i) {
+        for (int j = 0; j < src.cols; ++j) {
+          cv::Vec3b bgr = src.at<cv::Vec3b>(i, j);
+          dest.setPixel(j, i, qRgb(bgr[2], bgr[1], bgr[0]));
+        }
+      }
+    }
+  } else if (src.depth() == CV_32F) {
+    if (src.channels() == 1) {
+      for (int i = 0; i < src.rows; ++i) {
+        for (int j = 0; j < src.cols; ++j) {
+          int level = scale * src.at<float>(i, j);
+          dest.setPixel(j, i, qRgb(level, level, level));
+        }
+      }
+    } else if (src.channels() == 3) {
+      for (int i = 0; i < src.rows; ++i) {
+        for (int j = 0; j < src.cols; ++j) {
+          cv::Vec3f bgr = scale * src.at<cv::Vec3f>(i, j);
+          dest.setPixel(j, i, qRgb(bgr[2], bgr[1], bgr[0]));
+        }
+      }
+    }
+  }
+
+  return dest;
 }
 void QNode::run() {
 	ros::Rate loop_rate(1);
@@ -186,5 +247,22 @@ void QNode::log( const LogLevel &level, const std::string &msg) {
 	logging_model.setData(logging_model.index(logging_model.rowCount()-1),new_row);
 	Q_EMIT loggingUpdated(); // used to readjust the scrollbar
 }
-
+void QNode::amcl_pose_callback(const geometry_msgs::PoseWithCovarianceStamped& msg)
+{
+    //发送信号
+    emit position(msg.pose.pose.position.x,msg.pose.pose.position.y,msg.pose.pose.orientation.z);
+}
+//定义接口函数
+void QNode::set_goal(double x,double y,double z)
+{
+    geometry_msgs::PoseStamped goal;
+    //设置frame
+    goal.header.frame_id = "map";
+    //设置时刻
+    goal.header.stamp=ros::Time::now();
+    goal.pose.position.x = x;
+    goal.pose.position.y = y;
+    goal.pose.orientation.z = z;
+    goal_pub.publish(goal);
+}
 }  // namespace class1_ros_qt_demo

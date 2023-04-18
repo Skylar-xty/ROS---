@@ -29,6 +29,12 @@
 #include <map>
 #include <geometry_msgs/Twist.h>
 #include <nav_msgs/Odometry.h>
+#include <image_transport/image_transport.h>
+#include <cv_bridge/cv_bridge.h>
+#include <sensor_msgs/image_encodings.h>
+#include <QImage>
+#include <geometry_msgs/PoseWithCovarianceStamped.h>
+#include <geometry_msgs/PoseStamped.h>
 /*****************************************************************************
 ** Namespaces
 *****************************************************************************/
@@ -49,6 +55,7 @@ public:
 	bool init(const std::string &master_url, const std::string &host_url);
 	void run();
     void set_cmd_vel(char k,float linear,float angular);
+    void sub_image(QString topic_name);
 	/*********************
 	** Logging
 	**********************/
@@ -63,10 +70,14 @@ public:
 	QStringListModel* loggingModel() { return &logging_model; }
 	void log( const LogLevel &level, const std::string &msg);
 
+    void set_goal(double x,double y,double z);
+
 Q_SIGNALS:
 	void loggingUpdated();
     void rosShutdown();
     void speed_vel(float,float);
+    void image_val(QImage);
+    void position(double x,double y,double z);
 
 private:
 	int init_argc;
@@ -80,7 +91,16 @@ private:
     //回调函数
     void chatter_callback(const std_msgs::String &msg);
     void odom_callback(const nav_msgs::Odometry &msg);
+
     ros::Publisher cmd_vel_pub;
+
+    image_transport::Subscriber image_sub;
+    void image_callback(const sensor_msgs::ImageConstPtr &msg);
+    QImage Mat2QImage(cv::Mat const&src);
+
+    void amcl_pose_callback(const geometry_msgs::PoseWithCovarianceStamped& msg);
+    ros::Subscriber amcl_pose_sub;
+    ros::Publisher goal_pub;
 };
 
 }  // namespace class1_ros_qt_demo

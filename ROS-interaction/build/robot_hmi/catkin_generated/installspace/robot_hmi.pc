@@ -1,4 +1,4 @@
-prefix=/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install
+prefix=/usr/local
 
 Name: robot_hmi
 Description: Description of robot_hmi

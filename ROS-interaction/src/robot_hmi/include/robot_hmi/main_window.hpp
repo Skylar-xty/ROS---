@@ -17,6 +17,10 @@
 #include "ui_main_window.h"
 #include "qnode.hpp"
 #include "CCtrlDashBoard.h"
+#include <QComboBox>
+#include "qrviz.hpp"
+#include <QSpinBox>
+#include <QProcess>
 /*****************************************************************************
 ** Namespace
 *****************************************************************************/
@@ -61,11 +65,62 @@ public Q_SLOTS:
     void slot_raw_value_change(int);
     void slot_pushbtn_click();
     void slot_update_dashboard(float,float);
+
+    void slot_update_image(QImage);
+    void slot_sub_image();
+    void slot_quick_output();
+    void slot_quick_cmd_clicked();
+
+    void slot_treewidget_value_change(QString);
+    void slot_display_grid(int);
+    void slot_display_tf(int);
+    void slot_display_laser(int);
+    void slot_display_RobotModel(int);
+    void slot_display_Map(int);
+    void slot_display_Path(int);
+
+    void slot_set_start_pose();
+    void slot_set_goal_pose();
+
+    void slot_display_local_map(int state);
+    void slot_display_global_map(int state);
+
+    void slot_update_pose(double,double,double);
+    void slot_set_return_pos();
+    void slot_return();
+
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;
     CCtrlDashBoard* speed_x_dashBoard;
     CCtrlDashBoard* speed_y_dashBoard;
+    QProcess *laser_cmd;
+    qrviz* my_rviz;
+    QComboBox* fixed_box;
+    QSpinBox* Cell_Count_Box;
+    QComboBox* Grid_Color_Box;
+    QCheckBox* TF_Check;
+    QComboBox* Laser_Topic_box;
+    QCheckBox* RobotModel_Check;
+    QComboBox* Map_Topic_box ;
+    QComboBox* Map_Color_Topic_box;
+    QComboBox* Path_Topic_box;
+    QComboBox* Path_Color_Topic_box;
+
+    QCheckBox* GlobalMap_Check;
+    QComboBox* Global_CostMap_Topic_box;
+    QComboBox* GlobalMapColorScheme_box;
+
+    QComboBox* Global_Planner_Topic_box;
+    QComboBox* Global_Planner_Color_box;
+
+    QCheckBox* LocalMap_Check;
+    QComboBox* Local_CostMap_Topic_box;
+    QComboBox* LocalMapColorScheme_box;
+
+    QComboBox* Local_Planner_Topic_box;
+    QComboBox* Local_Planner_Color_box;
+
 };
 
 }  // namespace class1_ros_qt_demo

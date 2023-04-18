@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_hmi/robot_hmi"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_hmi" TYPE EXECUTABLE FILES "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/devel/lib/robot_hmi/robot_hmi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_hmi" TYPE EXECUTABLE FILES "/home/skylar-xty/Add_Pan/ROS1/ROS--interaction-software-development/ROS-interaction/build/devel/lib/robot_hmi/robot_hmi")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_hmi/robot_hmi" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_hmi/robot_hmi")
     file(RPATH_CHANGE

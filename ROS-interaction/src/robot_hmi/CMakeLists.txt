@@ -9,9 +9,20 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 ##############################################################################
 # Catkin
 ##############################################################################
-
+set(cv_bridge_DIR /opt/ros/noetic/share/cv_bridge/cmake)
+set(sensor_msgs_DIR /opt/ros/noetic/share/sensor_msgs/cmake)
+set(geometry_msgs_DIR /opt/ros/noetic/share/geometry_msgs/cmake)
+set(image_transport_DIR /opt/ros/noetic/share/image_transport/cmake)
+set(message_filters_DIR /opt/ros/noetic/share/message_filters/cmake)
+set(pluginlib_DIR /opt/ros/noetic/share/pluginlib/cmake)
+set(class_loader_DIR /opt/ros/noetic/share/class_loader/cmake)
+set(roslib_DIR /opt/ros/noetic/share/roslib/cmake)
+set(rospack_DIR /opt/ros/noetic/share/rospack/cmake)
+set(rviz_DIR /opt/ros/noetic/share/rviz/cmake)
 # qt_build provides the qt cmake glue, roscpp the comms for a default talker
-find_package(catkin REQUIRED COMPONENTS roscpp)
+find_package(catkin REQUIRED COMPONENTS roscpp
+    cv_bridge image_transport sensor_msgs
+    std_msgs rviz)
 include_directories(${catkin_INCLUDE_DIRS})
 #add
 find_package(Qt5 REQUIRED Core Widgets)
